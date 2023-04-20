@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-girl {
+  background: url("@/assets/images/girl.jpg") no-repeat;
+  opacity: 0.55;
+  background-size: cover;
+}
+.bg-dot {
+  background: transparent url("@/assets/images/dot.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
