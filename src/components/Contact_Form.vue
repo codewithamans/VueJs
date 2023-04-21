@@ -65,11 +65,7 @@ export default defineComponent({
     modelValue: String,
   },
   setup() {
-    const { useField, errors, values, handleSubmit } = useForm({
-      defaultValues: {
-        name: "Aman",
-      },
-    });
+    const { useField, errors, values, handleSubmit } = useForm({});
     const name = useField("name", {
       rule: { required: true },
     });
