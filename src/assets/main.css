@@ -12,3 +12,18 @@
     padding-box;
   opacity: 1;
 }
+.bg-business {
+  background: url("@/assets/images/business.jpg") no-repeat;
+  opacity: 1;
+  background-size: cover;
+}
+.bg-marketing {
+  background: url("@/assets/images/magnet.jpg") no-repeat;
+  opacity: 1;
+  background-size: cover;
+}
+.bg-design {
+  background: url("@/assets/images/carla.jpg") no-repeat;
+  opacity: 1;
+  background-size: cover;
+}
