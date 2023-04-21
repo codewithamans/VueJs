@@ -37,10 +37,12 @@
     />
   </div>
   <div class="mt-10">
-    <input
+    <textarea
+      id="message"
+      class="w-full px-4 h-[300px] py-4 border-2 border-[#01CB63] bg-[#F8F9FB]"
+      rows="5"
       placeholder="Message (optional)"
-      class="w-full h-[300px] border-2 border-[#01CB63] bg-[#F8F9FB]"
-    />
+    ></textarea>
   </div>
   <div class="flex justify-center">
     <button
