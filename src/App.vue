@@ -4,6 +4,7 @@ import Earners from "./components/Earners.vue";
 import Main from "./components/Main.vue";
 import Navbar from "./components/Navbar.vue";
 import Comments from "./components/Comments.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Comments from "./components/Comments.vue";
   <Courses />
   <Earners />
   <Comments />
+  <Footer />
 </template>
 
 <style scoped>

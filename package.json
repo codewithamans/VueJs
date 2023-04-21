@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-hook-form": "^0.0.4",
+    "vue-hooks-form": "^0.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
