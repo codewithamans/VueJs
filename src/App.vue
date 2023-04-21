@@ -1,5 +1,6 @@
 <script setup>
 import Courses from "./components/Courses.vue";
+import Earners from "./components/Earners.vue";
 import Main from "./components/Main.vue";
 import Navbar from "./components/Navbar.vue";
 </script>
@@ -8,6 +9,7 @@ import Navbar from "./components/Navbar.vue";
   <Navbar />
   <Main />
   <Courses />
+  <Earners />
 </template>
 
 <style scoped>
