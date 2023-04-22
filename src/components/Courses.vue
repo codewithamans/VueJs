@@ -1,18 +1,22 @@
 <template>
   <div class="w-full bg-yellow h-auto">
-    <div class="w-full text-[#01CB63] italic text-center mt-32 text-2xl">
+    <div
+      class="w-full text-[#01CB63] italic text-center mt-10 md:mt-32 text-xl md:text-2xl"
+    >
       Courses
     </div>
-    <div class="w-full text-black text-center mt-4 text-4xl">
+    <div class="w-full text-black text-center mt-4 text-4xl md:text-5xl">
       Our Most Popular Courses
     </div>
     <div class="flex justify-center items-center">
-      <div class="w-4/5">
-        <div class="grid lg:grid-cols-3 mt-20 gap-24">
+      <div class="w-full md:w-4/5">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-12 mt-8 md:mt-20"
+        >
           <div class="h-auto shadow-lg shadow-gray-400 rounded-xl">
             <Course_Card
               title="Business"
-              desc=" Ultimate Business Intelligence Analyst A to Z Course 2021"
+              desc="Ultimate Business Intelligence Analyst A to Z Course 2021"
               student_no="46,995"
               time="11 hr 20 mins"
               lectures="44"

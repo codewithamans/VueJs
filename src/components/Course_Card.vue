@@ -25,7 +25,9 @@
       </div>
     </div>
   </div>
-  <hr class="w-[25rem] mt-5 ml-5 bg-[#86919D]" />
+  <hr
+    class="w-[20rem] md:w-[35rem] lg:w-[18rem] overflow-hidden mt-5 ml-5 bg-[#86919D]"
+  />
   <div class="w-full flex justify-between mt-5 mb-3">
     <div class="ml-3 flex space-x-2">
       <div>

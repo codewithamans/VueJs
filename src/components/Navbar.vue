@@ -1,13 +1,21 @@
 <template>
-  <nav>
-    <div class="w-full h-auto flex justify-between">
-      <div class="mx-[140px] my-[30px]">
-        <img src="@/assets/images/logo.svg" alt="Your SVG" />
+  <nav class="w-full shadow-lg px-4 md:px-6 lg:px-8">
+    <div class="flex items-center justify-between py-4 md:py-6 lg:py-8">
+      <div class="mx-4 md:mx-0">
+        <img
+          src="@/assets/images/logo.svg"
+          alt="Your SVG"
+          class="h-8 md:h-10 lg:h-12"
+        />
       </div>
-      <div class="flex space-x-[56px] mx-[140px] mt-[27px]">
-        <div class="mt-[20px] font-semibold">Login</div>
+      <div class="flex items-center">
         <div
-          class="text-white italic flex justify-center items-center bg-[#01CB63] w-[144px] h-[60px] rounded-lg"
+          class="text-sm md:text-base lg:text-lg font-semibold text-gray-700 mr-6 md:mr-8 lg:mr-10"
+        >
+          Login
+        </div>
+        <div
+          class="bg-green-500 md:mx-6 text-white font-semibold py-2 px-4 rounded-lg"
         >
           Register
         </div>

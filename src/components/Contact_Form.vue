@@ -1,5 +1,5 @@
 <template>
-  <div class="text-[#201F23] text-[1.7rem] text-center font-bold">
+  <div class="text-[#201F23] text-[1.7rem] lg:text-center font-bold">
     Fill up the form and our team will get back to you within 24 hours
   </div>
   <div class="grid lg:grid-cols-2 gap-8 mt-10">
@@ -44,6 +44,7 @@
       placeholder="Message (optional)"
     ></textarea>
   </div>
+
   <div class="flex justify-center">
     <button
       class="text-white w-[242px] italic flex justify-center mt-[55px] items-center bg-[#000] h-[70px] rounded-lg"
